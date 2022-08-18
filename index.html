@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__top">
+              <div class="logo">
+                <a class="logo__link" href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 828 828"
+                    width="70"
+                    height="70"
+                  >
+                    <path
+                      fill="white"
+                      d="M54.31,620.12C45.7,593.62,36.5,564.19,31,539.42l8.33,7.87c-9.48-24.47-15.23-52.14-17.82-82.15l9.46,9-2.88-31.47c2.28-11.66,7.15-21.28,12.89-30,0,36.42,1.75,72.25,7.5,107.51L60,537.39Q71.21,584.06,85,630l14.06,18.34c10,23.59,21.52,48.94,34.73,71.94,4,3.79,7.75,7.29,11.76,10.48a551.73,551.73,0,0,1-27.84-57.38l7.46,5.24A830.08,830.08,0,0,1,95,587.18l11.18,7.57C80.91,513.19,78.86,417,90.28,325c8-14,16.62-25.65,26.94-38.78-16.29,108.39-15.66,217.06,13.07,325.43L141.77,621c7.75,32.63,20.39,64.38,35,97l9.17,7a441.45,441.45,0,0,0,36.73,58.25c5.45,2.61,10.6,5.23,16.06,7.85-10.91-16.31-22.66-33.2-31.28-51.26l8.32,2.32a537.84,537.84,0,0,1-42.49-99.91l13.2,7.27c-29.89-146.24-30.27-295.11-6.25-446.3,10.31-12.26,21.2-23.33,33.53-31.78-21.13,166.65-27.65,332.13,3.41,497L234.69,678c7.77,32.92,18.1,58.84,31,87.09l7.45,2.91c6.31,15.15,15.78,30.59,27.26,45.73a162.18,162.18,0,0,0,16.92,4.37A452.15,452.15,0,0,1,291,770.66l7.75,2c-10.91-23-18.95-48.65-25.57-74.86l13.48,2.62c-31.06-185.28-24.58-402,2.85-593.17,10.89-11.94,23.49-21,36.68-28.86-29.14,208-35.62,415.73-8.57,624.05l14.34,1.74a406.84,406.84,0,0,0,14.38,78.65l7.73.87A197.09,197.09,0,0,0,371,826.84c5.16.58,10.05.87,15.2,1.16q-9.71-22-17.51-44.86h12.91a325.51,325.51,0,0,1-14.67-76.33l26.37.57c-9.59-234.23-8-470.2,2.79-707.37C176.71,6.51-.12,190.13,0,414.18A417.44,417.44,0,0,0,54.31,620.12ZM774,619.74c8.59-26.51,17.73-55.94,23.16-80.72l-8.3,7.88c9.44-24.49,15.15-52.16,17.71-82.17l-9.46,9,2.84-31.47c-2.3-11.65-7.18-21.27-12.93-30,0,36.42-1.66,72.25-7.38,107.52L768.16,537Q757,583.7,743.28,629.69l-14,18.36c-10,23.6-21.47,49-34.64,72-4,3.79-7.74,7.3-11.75,10.49a555.74,555.74,0,0,0,27.77-57.41l-7.45,5.25a834.31,834.31,0,0,0,30-91.51L722,594.44c25.18-81.6,27.11-177.74,15.56-269.78-8-14-16.65-25.63-27-38.75C727.06,394.28,726.57,503,698,611.35l-11.47,9.33c-8,32.63-20.31,64.4-34.9,97l-9.17,7A437.88,437.88,0,0,1,605.79,783c-5.44,2.63-10.6,5.25-16,7.87,10.89-16.32,22.63-33.22,31.21-51.29l-8.3,2.33A538.25,538.25,0,0,0,655,642l-13.19,7.29C671.52,503,671.69,354.1,647.48,202.93c-10.32-12.24-21.23-23.3-33.57-31.73,21.34,166.62,28.07,332.1-2.77,497l-17.48,9.63c-7.71,32.93-18,58.86-30.89,87.13l-7.46,2.92c-6.29,15.15-15.74,30.6-27.19,45.76a162.27,162.27,0,0,1-16.92,4.39,446.84,446.84,0,0,0,26.35-47.51l-7.73,2.05c10.87-23,18.88-48.67,25.45-74.89l-13.47,2.63c30.82-185.31,24.06-402.05-3.62-593.16-10.89-11.93-23.52-21-36.72-28.82,29.41,208,36.16,415.69,9.38,624l-14.34,1.76a407.5,407.5,0,0,1-14.27,78.66l-7.75.88a194.89,194.89,0,0,1-16.88,43.13q-7.59.81-15.2,1.18,9.69-22,17.45-44.88H447a326.72,326.72,0,0,0,14.56-76.35l-26.38.6c9.29-234.24,7.37-470.21-3.7-707.37C650.78,6.26,827.83,189.68,828,413.73a417.33,417.33,0,0,1-54,206Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <nav class="menu" id="menu">
+                <ul class="menu__list">
+                  <li class="menu__list-item active">
+                    <a class="menu__item-link" href="#header">Home</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__item-link" href="#about">About</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__item-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__item-link" href="#porfolio">Portfolio</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__item-link" href="#contacts">Contacts</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <button class="menu__btn">
+                <span></span>
+              </button>
+            </div>
+
+            <div class="header__body">
+              <div class="header__content">
+                <h1 class="header__title">
+                  <span>Hi, I'm</span>
+                  Taras SHablia<br />
+                </h1>
+                <div class="header-subtitle">
+                  <div class="header-subtitle__wrapper">
+                    <div class="header-subtitle__item">Front-End Developer</div>
+                    <div class="header-subtitle__item">HTML Coder</div>
+                  </div>
+                </div>
+                <div class="header__page-btn page-btn">
+                  <a
+                    class="page-btn__link shine"
+                    data-aos="zoom-up"
+                    data-aos-delay="2000"
+                    data-aos-duration="2000"
+                    data-aos-easing="ease"
+                    href="#about"
+                    target="_blank"
+                  >
+                    <span>ABOUT ME</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="about" id="about">
+          <div class="container">
+            <h2 class="about__title title">&lt About / &gt</h2>
+            <div class="about__inner">
+              <div
+                class="about__info"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+                data-aos-easing="ease"
+              >
+                <p class="about__info-text">
+                  So glad to see you here! I'm a Markup Developer with more than
+                  2 years of experience, and I'm offering high-quality service
+                  to convert your PSD to HTML, Sketch to HTML, and Figma to
+                  HTML, make an adaptive, semantically correct, and
+                  pixel-perfect layout of your project with clean and clear
+                  code.
+                </p>
+                <p class="about__info-addtext">
+                  If you are interested and want to know more, here is my
+                  resume:
+                </p>
+              </div>
+              <div
+                class="about__image-box"
+                data-aos-delay="400"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-easing="ease"
+              >
+                <img
+                  class="about__image"
+                  src="images/about-img.webp"
+                  alt="man"
+                />
+              </div>
+            </div>
+            <div
+              class="about__cv cv-box"
+              data-aos="flip-left"
+              data-aos-delay="2000"
+              data-aos-duration="2000"
+              data-aos-easing="ease"
+            >
+              <a class="cv-box__link shine" href="docs/Cv.pdf" target="_blank"
+                >Get my CV</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <div class="container">
+            <h2 class="works__title title">&lt Skills / &gt</h2>
+            <div class="skills__inner anim-item animated">
+              <div class="skills__box">
+                <h5
+                  class="skills__subtitle subtitle"
+                  data-aos-easing="ease-in-out"
+                  data-aos="fade-down"
+                  data-aos-delay="0"
+                  data-aos-duration="0"
+                >
+                  Main:
+                </h5>
+                <ul class="skills__main skills__list">
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                    data-aos-duration="800"
+                  >
+                    HTML5
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                    data-aos-duration="800"
+                  >
+                    CSS3
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="700"
+                    data-aos-duration="800"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="800"
+                    data-aos-duration="800"
+                  >
+                    JQuery
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="900"
+                    data-aos-duration="800"
+                  >
+                    SCSS
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="1000"
+                    data-aos-duration="800"
+                  >
+                    CSS3 Media Queries
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="1100"
+                    data-aos-duration="800"
+                  >
+                    BEM
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="1200"
+                    data-aos-duration="800"
+                  >
+                    Gulp
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="1300"
+                    data-aos-duration="800"
+                  >
+                    Git
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="1400"
+                    data-aos-duration="800"
+                  >
+                    Figma
+                  </li>
+                  <li
+                    class="skills__item shine"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="1500"
+                    data-aos-duration="800"
+                  >
+                    Photoshop
+                  </li>
+                </ul>
+              </div>
+
+              <div class="skills__box skills__box-other">
+                <h5
+                  class="skills__subtitle subtitle in-progress"
+                  data-aos-easing="ease-in-out"
+                  data-aos="fade-down"
+                  data-aos-delay="2200"
+                  data-aos-duration="0"
+                >
+                  In progress:
+                </h5>
+                <ul class="skills__inprogress skills__list">
+                  <li
+                    class="skills__item"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="2700"
+                    data-aos-duration="800"
+                  >
+                    React JS
+                  </li>
+                  <li
+                    class="skills__item"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="2900"
+                    data-aos-duration="800"
+                  >
+                    Redux
+                  </li>
+                  <li
+                    class="skills__item"
+                    data-aos-easing="ease-in-out"
+                    data-aos="fade-up"
+                    data-aos-delay="3000"
+                    data-aos-duration="800"
+                  >
+                    Email Markup
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="works" id="porfolio">
+          <div class="container">
+            <h2 class="works__title title">&lt Portfolio / &gt</h2>
+            <div class="works__inner">
+              <ul class="works__buttons">
+                <li class="works__btn" data-filter=".html">
+                  HTML5/SCSS Markup
+                </li>
+                <li class="works__btn" data-filter=".landings">Landings</li>
+                <li class="works__btn" data-filter=".react">React App</li>
+                <li class="works__btn" data-filter=".email">Email Markup</li>
+              </ul>
+
+              <div class="works__items">
+                <div class="works__item mix html">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="https://shabliataras.github.io/adrenalin/"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-adrenalin.webp"
+                      alt="adrenalin website"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix html">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="https://shabliataras.github.io/ewf/"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-mebel.webp"
+                      alt="Mebel website"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix html">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix html">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix html">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix html">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+
+                <div class="works__item mix landings">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix landings">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix landings">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+
+                <div class="works__item mix react">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix react">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix react">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+
+                <div class="works__item mix email">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+                <div class="works__item mix email">
+                  <div class="works__item-browser">
+                    <div
+                      class="works__item-circle works__item-circle-red"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-yellow"
+                    ></div>
+                    <div
+                      class="works__item-circle works__item-circle-green"
+                    ></div>
+                  </div>
+                  <a
+                    href="#"
+                    class="works__item-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      class="works__item-img"
+                      src="images/portfolio-in-progress.webp"
+                      alt="lala page"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contacts" id="contacts">
+          <div class="container">
+            <h2 class="contacts__title title">&lt Contacts / &gt</h2>
+            <div class="contacts__inner">
+              <div class="contacts__box">
+                <div class="contacts__phone-box social-box">
+                  <a class="contacts__phone-link" href="tel:0667497854">
+                    <svg
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="10px"
+                      y="10px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                    >
+                      ]
+                      <g>
+                        <g>
+                          <path
+                            fill="#FFFFFF"
+                            d="M857.2,610.9c-4.7-32.8-30.1-58.4-62.7-66.1c-126.9-29.7-158.7-102.8-164-183.8c-22.5-4.2-62.5-8.7-130.5-8.7s-108,4.5-130.5,8.7c-5.4,81-37.2,154.1-164,183.8c-32.6,7.7-58,33.2-62.7,66.1l-24.5,169.5c-8.6,59.7,35.2,113.5,96.1,113.5h571.1c60.9,0,104.8-53.8,96.1-113.5L857.2,610.9L857.2,610.9z M500,770.4c-68.7,0-124.4-55.1-124.4-123.1c0-67.9,55.7-123.1,124.4-123.1c68.7,0,124.4,55.1,124.4,123.1C624.4,715.2,568.6,770.4,500,770.4z M989.9,303.1c-1.2-73.8-189.1-196.9-489.9-196.9c-300.8,0-488.7,123.1-489.9,196.9C9,376.9,11.2,473,135,457c144.8-18.8,135.9-69.3,135.9-141.6c0-50.4,117.8-62.6,229.2-62.6s229.1,12.2,229.2,62.6c0,72.3-8.9,122.8,135.9,141.6C988.8,473,991,376.9,989.9,303.1z"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+
+                    <span> (066) 749 78 54</span>
+                  </a>
+                </div>
+                <div class="contacts__email-box social-box">
+                  <a href="mailto:taras.shablia@gmail.com">
+                    <svg
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 1000 1000"
+                      enable-background="new 0 0 1000 1000"
+                      xml:space="preserve"
+                    >
+                      <g>
+                        <path
+                          fill="#fff"
+                          d="M296.7,459.7L10,239.4v507L296.7,459.7z M987.5,137H13.4L500,510.9L987.5,137z M636.4,511.2L500,615.8l-136.7-105L11.2,863h977L636.4,511.2z M703.1,460.1L990,747V240L703.1,460.1z"
+                        />
+                      </g>
+                    </svg>
+
+                    <span> taras.shablia@gmail.com</span>
+                  </a>
+                </div>
+                <div class="contacts__facebook-box social-box">
+                  <a
+                    class="contacts__facebook-link"
+                    href="https://www.facebook.com/shablia.taras"
+                  >
+                    <svg
+                      class="contacts__social-img"
+                      width="15"
+                      height="15"
+                      viewBox="0 0 16 16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.75 8C15.75 3.71875 12.2812 0.25 8 0.25C3.71875 0.25 0.25 3.71875 0.25 8C0.25 11.875 3.0625 15.0938 6.78125 15.6562V10.25H4.8125V8H6.78125V6.3125C6.78125 4.375 7.9375 3.28125 9.6875 3.28125C10.5625 3.28125 11.4375 3.4375 11.4375 3.4375V5.34375H10.4688C9.5 5.34375 9.1875 5.9375 9.1875 6.5625V8H11.3438L11 10.25H9.1875V15.6562C12.9062 15.0938 15.75 11.875 15.75 8Z"
+                        fill="#fff"
+                      />
+                    </svg>
+
+                    <span>shablia.taras</span>
+                  </a>
+                </div>
+                <div class="contacts__telegram-box social-box">
+                  <a href=" https://t.me/fen0meNo" target="_blank">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.6953 25.3017L15.0336 34.6083C15.9803 34.6083 16.3903 34.2017 16.882 33.7133L21.3203 29.4717L30.517 36.2067C32.2036 37.1467 33.392 36.6517 33.847 34.655L39.8836 6.36833L39.8853 6.36667C40.4203 3.87333 38.9836 2.89833 37.3403 3.51L1.85696 17.095C-0.564704 18.035 -0.528037 19.385 1.4453 19.9967L10.517 22.8183L31.5886 9.63333C32.5803 8.97667 33.482 9.34 32.7403 9.99667L15.6953 25.3017Z"
+                        fill="#fff"
+                      ></path>
+                    </svg>
+
+                    <span>fen0meNo</span>
+                  </a>
+                </div>
+                <div class="contacts__city-box social-box">
+                  <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 1000 1000"
+                    enable-background="new 0 0 1000 1000"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          fill="#fff"
+                          d="M193.8,561.3L255,928.8h183.8V622.5h122.5v306.3H745l61.3-367.5L500,255L193.8,561.3z M806.3,377.5v-245H683.8l0.3,122.8l-184-184l-490,490h122.5L500,193.8l367.5,367.5H990L806.3,377.5z"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                  <span>Lviv</span>
+                </div>
+              </div>
+
+              <form class="contacts__form">
+                <input
+                  class="contacts__form-input"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  class="contacts__form-input"
+                  type="email"
+                  placeholder="Email"
+                />
+                <textarea
+                  class="contacts__form-area"
+                  placeholder="Message"
+                ></textarea>
+                <button class="contacts__form-btn shine">Submit</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
